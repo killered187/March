@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+	char input = 'b';
+	int lc=0;
+	while (input == 'b') {
+		cout << "pick a letter" << endl;	
+		cin >> input;
+		if (input == 'b')
+		lc = lc + 1;
+		cout << lc << endl;
+	}
+
+
+
+}
